@@ -1,0 +1,20 @@
+.canvas {
+    border: 1px solid $canvas-border;
+    background-color: $canvas-background;
+}
+.fps-counter {
+    position: relative;
+    right: 86px;
+    padding: 4px;
+    color: $fps;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    pointer-events: none;
+}
+.play {
+    position: absolute;
+    top: 20px;
+    font-family: sans-serif;
+    color: $canvas-background;
+}
